@@ -2,8 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Start the project
+In this proect the middlware and frontend are set to run on seperate ports.
 
-In the project directory, you can run:
+### Middleware - npm start
+The middleware is started seperatly. This middleware is where the Database information is stored to create a connection to the front-end side of the application. The default connection variables can be set in the env file.
 
-## npm start
+### Front end UI - npm start
+The React front end is used to start off the web server to run on a seperate port then the middleware. Within this project the connection to the middle ware is set with the datasource.js
